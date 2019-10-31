@@ -7,7 +7,7 @@ function Button ({ label} ) {
         <div
             data-testid="button"
             className="button-style"
-            >{ label } 
+            >hi { label } 
         </div>
     )
 }
