@@ -31,12 +31,12 @@ it('renders button correctly', () => {
 
 
 // ==================== snapshot testing ==================== //
-it('snapshot', () => {
+it('matches snapshot1', () => {
     const tree = renderer.create(<Button label="save" />).toJSON();
     expect(tree).toMatchSnapshot();
 });
 
-it('snapshot', () => {
+it('matches snapshot2', () => {
     const tree = renderer.create(<Button label="click me please" />).toJSON();
     expect(tree).toMatchSnapshot();
 });

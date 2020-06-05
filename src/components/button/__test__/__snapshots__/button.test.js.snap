@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot 1`] = `
+exports[`matches snapshot1 1`] = `
 <div
   className="button-style"
   data-testid="button"
@@ -10,7 +10,7 @@ exports[`snapshot 1`] = `
 </div>
 `;
 
-exports[`snapshot 2`] = `
+exports[`matches snapshot2 1`] = `
 <div
   className="button-style"
   data-testid="button"
